@@ -1,0 +1,170 @@
+
+#blogSlider {
+  position: relative;
+  width: 100%;
+}
+#blogSlider .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0%;
+}
+#control{
+float: right;
+}
+#blogSlider .MS-content .item {
+ 
+  display: inline-block;
+  height: 100%;
+  
+  overflow: hidden;
+  position: initial;
+  vertical-align: top;
+  width: 16.6%;
+  margin:0px;
+ 
+}
+@media (max-width: 991px) {
+  #blogSlider .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #blogSlider .MS-content .item {
+    width: 100%;
+  }
+}
+
+ #blogSlider .MS-controls button {
+  margin-top: 55px;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 30px;
+  top: 95px;
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.15s linear;
+}
+#blogSlider .MS-controls button:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 992px) {
+  #blogSlider .MS-controls button {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #blogSlider .MS-controls button {
+    font-size: 20px;
+  }
+}
+#blogSlider .MS-controls .MS-left {
+  left: -25px;
+}
+@media (max-width: 767px) {
+  #blogSlider .MS-controls .MS-left {
+    left: -10px;
+  }
+}
+#blogSlider .MS-controls .MS-right {
+  right: -25px;
+}
+@media (max-width: 767px) {
+  #blogSlider .MS-controls .MS-right {
+    right: -10px;
+  }
+}
+
+
+
+
+#blogSlide {
+  position: relative;
+  width: 100%;
+}
+#blogSlide .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0%;
+}
+#control{
+float: right;
+}
+
+#blogSlide .MS-content .item {
+ 
+  display: inline-block;
+  height: 100%;
+  
+  overflow: hidden;
+  position: initial;
+  vertical-align: top;
+  width: 16.6%;
+  margin:0px;
+ 
+}
+@media (max-width: 991px) {
+  #blogSlide .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #blogSlide .MS-content .item {
+    width: 100%;
+  }
+}
+
+ #blogSlide .MS-controls button {
+  margin-top: 15px;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 30px;
+  top: 95px;
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.15s linear;
+}
+#blogSlide .MS-controls button:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 992px) {
+  #blogSlide .MS-controls button {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #blogSlide .MS-controls button {
+    font-size: 20px;
+  }
+}
+#blogSlide .MS-controls .MS-left {
+  left: -25px;
+}
+@media (max-width: 767px) {
+  #blogSlide .MS-controls .MS-left {
+    left: -10px;
+  }
+}
+#blogSlide .MS-controls .MS-right {
+  right: -25px;
+}
+@media (max-width: 767px) {
+  #blogSlide .MS-controls .MS-right {
+    right: -10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
