@@ -1,0 +1,12 @@
+spec:
+  name: sample-laravel
+  services:
+  - environment_slug: php
+    git:
+      branch: main
+      repo_clone_url: https://github.com/digitalocean/sample-laravel.git
+    envs:
+    - key: APP_KEY
+      value: "base64:fHyn9mLPkdKss9Dujbm00GiDKNLvOaUu0tH3kFZuS9k="
+    name: sample-laravel
+    run_command: heroku-php-apache2 public/
